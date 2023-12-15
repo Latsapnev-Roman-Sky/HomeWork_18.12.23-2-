@@ -28,5 +28,15 @@ public class Main {
         else if (age5 >=5 && age5 <= 14) {System.out.println("Если возраст ребенка равен "+age5+", то он может кататься только в сопровождении взрослого. Если взрослого нет, то кататься нельзя.");}
         else if (age5 > 14) {System.out.println("Если возраст ребенка равен "+age5+", то он может кататься без сопровождения взрослого.");}
 
+        //Task 6
+        int people = 102;
+        int capacityCar = 102;
+        int seatPlace = 60 - people;
+        int standingPlace = capacityCar - people;
+        int peopleOutside = people - capacityCar;
+        if (people >= 60 && people < 102) {System.out.println("Если человек "+people+", то в вагоне остается 0 сидячих мест(а) и "+standingPlace+" стоячих мест(а).");}
+        else if (people > 0 && people < 60) {System.out.println("Если человек "+people+", то в вагоне остается "+seatPlace+" сидячих мест(а) и "+(capacityCar-60)+" стоячих мест(а).");}
+        else if (people >= 102) {System.out.println("Если человек "+people+", то в вагоне мест нет, он полностью забит. Людей которых осталось вне вагона - "+peopleOutside);}
+
     }
 }
