@@ -38,5 +38,13 @@ public class Main {
         else if (people > 0 && people < 60) {System.out.println("Если человек "+people+", то в вагоне остается "+seatPlace+" сидячих мест(а) и "+(capacityCar-60)+" стоячих мест(а).");}
         else if (people >= 102) {System.out.println("Если человек "+people+", то в вагоне мест нет, он полностью забит. Людей которых осталось вне вагона - "+peopleOutside);}
 
+        //Task 7
+        int one = 101;
+        int two = 23;
+        int three = 33;
+        if (one > two && one > three){System.out.println("Число "+one+" больше чисел "+two+" и "+three);}
+        else if (two > one && two > three) {System.out.println("Число "+two+" больше чисел "+one+" и "+three);}
+        else if (three > one && three > two) {System.out.println("Число "+three+" больше чисел "+one+" и "+two);}
+
     }
 }
