@@ -10,5 +10,10 @@ public class Main {
         if (temperature < 5) {System.out.println("На улице холодно, нужно надеть шапку.");}
         if (temperature >= 5) {System.out.println("Сегодня тепло, можно идти без шапки.");}
 
+        //Task 3
+        int speed = 70;
+        if (speed > 60) {System.out.println("Если скорость "+speed+", то придется заплатить штраф.");}
+        if (speed <= 60) {System.out.println("Если скорость "+speed+", то можно ездить спокойно.");}
+
     }
 }
